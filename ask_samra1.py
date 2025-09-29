@@ -1,7 +1,7 @@
 import streamlit as st
 import re
 
-st.title("Ask Samra Electricity Generating Company (Smart Local)")
+st.title("Ask Samra Electric Power Companyy ")
 
 question = st.text_input("اكتب سؤالك هنا:")
 
@@ -60,3 +60,4 @@ if st.button("جاوبني"):
             st.write("الجواب:", answer)
         else:
             st.write("آسف، لا توجد معلومات دقيقة لهذا السؤال حالياً.")
+
